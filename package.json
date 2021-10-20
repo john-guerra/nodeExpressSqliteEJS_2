@@ -16,6 +16,7 @@
     "prettier": "^2.4.1"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
   }
