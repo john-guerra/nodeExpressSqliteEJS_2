@@ -1,23 +1,24 @@
 {
-  "name": "wildfireDB",
-  "version": "1.0.0",
-  "author": "",
-  "description": "",
-  "main": "index.js",
+  "name": "wildfiredb4",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^8.0.1",
-    "eslint-config-prettier": "^8.3.0",
-    "prettier": "^2.4.1"
+    "start": "node ./node_modules/nodemon/bin/nodemon.js ./bin/www"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.14",
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1"
   }
 }
